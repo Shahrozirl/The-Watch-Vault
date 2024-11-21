@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<head>
+  <title>The Watch Vault</title>
+  <link rel="stylesheet" type="text/css" href="Assignment 1  - CSS - Upgrade.css">
+</head>
+
+<body class="home-page">
+  <div class="homepage">
+    <div class="content-container">
+      <ul id="dropdown">
+        <li id="home"><a class="active" href="#home">Home</a></li>
+        <li id="review"><a href="#reviews">Reviews</a></li>
+        <li id="contact"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
