@@ -414,6 +414,12 @@ input[type="submit"]:hover {
   margin: 10px 0 0;
 }
 
+@media (max-width: 480px) {
+  .gallery-item {
+    width: 100%; /* One item per row on small screens */
+  }
+}
+
 @media (max-width: 768px) {
   .column-1, .column-3, .column-11, .column-33 {
       display: none;
@@ -437,11 +443,15 @@ input[type="submit"]:hover {
   }
   .contact-form {
     width: 100%;
-}
-.form-group input,
-.form-group textarea {
+  }
+  .form-group input,
+  .form-group textarea {
     font-size: 16px;
-}}
+  }
+  .gallery-item {
+    width: calc(50% - 10px); /* Two items per row on medium screens */
+  }
+}
 
 @media only screen 
 and (min-width : 1224px) {
