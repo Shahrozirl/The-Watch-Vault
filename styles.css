@@ -352,7 +352,6 @@ blockquote span{
 
 /*Contact Form*/
 .contact-form {
-  width: 60%; 
   margin: 10px auto; 
   padding: 10px; 
   background-color: rgba(220, 20, 60, 0.428); 
@@ -412,13 +411,13 @@ input[type="submit"]:hover {
   margin: 10px 0 0;
 }
 
-
 @media (max-width: 768px) {
   .column-1, .column-3, .column-11, .column-33 {
       display: none;
   }
   .column-2 {
       width: 100%;
+      padding: 0 10px;
   }
   .nav-links {
     display: none;
@@ -433,4 +432,17 @@ input[type="submit"]:hover {
   .nav-toggle {
     display: block;
   }
+  .contact-form {
+    width: 100%;
 }
+.form-group input,
+.form-group textarea {
+    font-size: 16px;
+}}
+
+@media only screen 
+and (min-width : 1224px) {
+  .contact-form {
+    width: 60%; 
+  }
+}  
