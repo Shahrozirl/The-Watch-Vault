@@ -167,37 +167,7 @@ p, li {font-family: verdana;font-size: 15px; text-align: justify; line-height: 1
   gap: 50px;
   justify-content: center;
 }
-/*
-#navigation {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: crimson;
-  position: relative; /* Needed for positioning the logo */
 
-/*li {
-  float: left;
-}
-li a {
-  display: block;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: rgb(182, 7, 7);
-}
-/*#logo {
-  position: absolute;
-  left: 80%; 
-  transform: translateX(-80%);
-  top: 50%;
-  transform: translate(-80%, -50%);
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-}
-*/
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -205,6 +175,7 @@ li a:hover {
   background-color: crimson;
   color: white;
   padding: 10px 20px;
+  border-radius: 7px;
 }
 .nav-brand {
   font-size: 20px;
@@ -385,8 +356,8 @@ blockquote span{
   margin: 10px auto; 
   padding: 10px; 
   background-color: rgba(220, 20, 60, 0.428); 
-  border: 1px solid #ddd; 
-  background-position: center; 
+  background-position: center;
+  border-radius: 10px;
 }
 .form-group { 
   margin-bottom: 15px; 
@@ -400,7 +371,8 @@ input, textarea {
   padding: 10px; 
   margin-bottom: 10px; 
   box-sizing: border-box; 
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
+  border-radius: 10px; 
 }
 input[type="submit"] { 
   background-color: #4CAF50; 
