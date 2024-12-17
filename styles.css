@@ -421,8 +421,8 @@ input[type="submit"]:hover {
     display: none;
   }
   .column-2, .column-22 {
-      width: 100%;
-      padding: 0 10px;
+    width: 100%;
+    padding: 0 10px;
   }
   .nav-links {
     display: none;
@@ -448,11 +448,11 @@ input[type="submit"]:hover {
 
 @media (max-width: 768px) {
   .column-1, .column-3, .column-11, .column-33 {
-      display: none;
+    display: none;
   }
   .column-2, .column-22 {
-      width: 100%;
-      padding: 0 10px;
+    width: 100%;
+    padding: 0 10px;
   }
   .nav-links {
     display: none;
