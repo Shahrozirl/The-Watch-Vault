@@ -296,7 +296,6 @@ body.blank-page {
   padding: 20px;
 }
 .gallery-item {
-  width: calc(33.33% - 20px); /* Three items per row, minus gap */
   background-color: white;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -418,6 +417,33 @@ input[type="submit"]:hover {
   .gallery-item {
     width: 100%; /* One item per row on small screens */
   }
+  .column-1, .column-3, .column-11, .column-33 {
+    display: none;
+  }
+  .column-2, .column-22 {
+      width: 100%;
+      padding: 0 10px;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #333;
+  }
+  .nav-links li {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .nav-toggle {
+    display: block;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -471,5 +497,8 @@ and (min-width : 1224px) {
 
   .contact-form {
     width: 60%; 
+  }
+  .gallery-item {
+    width: calc(33.33% - 20px); /* Three items per row, minus gap */
   }
 }  
