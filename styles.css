@@ -234,7 +234,7 @@ tr:nth-child(even) {background-color: #3f3f3f;}
   margin: 0 auto;
 }
 
-/*backround image for home page and empty review page*/
+/*backround image for home page, forms page and reviews page and empty review page*/
 body.home-page {
   background-image: url('https://www.silvana.com/app/uploads/movement-gears-background.jpg');
   background-repeat: no-repeat;
@@ -415,7 +415,7 @@ input[type="submit"]:hover {
   .column-1, .column-3, .column-11, .column-33 {
       display: none;
   }
-  .column-2 {
+  .column-2, .column-22 {
       width: 100%;
       padding: 0 10px;
   }
